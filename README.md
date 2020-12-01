@@ -126,5 +126,7 @@ git push: envia os arquivos que estão na máquina local para o servidor remoto.
 9 - git merge //unir linhas do tempo (branch's)
 10 - git push // envia alterações locais para o repositório remoto.
 11 - git pull // tras os arquivos atualizados da nuvem ou gitHub
+12 - git clone //clonar para nossa máquina um repositório já iniciado, e que esta na nuvem.
+13 - git pull // puxa os arquivos da nuvem, sincroniza com a nossa máquina os arquivos locais com a da nuvem, comando após o git clone.
 12 - git checkout -b teste // cria uma nova brach e acessa ela(faz checkout).
 13 - git commit -am "update sem o add" //adiciona e faz o commit
