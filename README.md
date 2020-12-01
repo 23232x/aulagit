@@ -110,6 +110,16 @@ Para não ficar digitando sempre o usuário e senha do gitHub, utiliza-se o segu
 1 - git log // para ver o momento que se squer voltar da linha do tempo(branc).
 2 - git checkout commit ba1abf8af55d75e4a4e68397efdd4579dd9d889b -- arquivoRecuperar
 
+## RECUPERAR ALGO DELETADO ##### (pesquisar mais formas de recuperar)
+
+- git checkout -- arquivoDeletado
+
+## APAGOU ARQUIVO, FAZENDO COMMIT E GIT PULL
+
+- Mesmo deletando um arquivo e fazeno o commit e fazendo pull, é possivel restaurar um arquivo deletado.
+  1 - git log : pegue o commit que o arquivo ainda existia.
+  2- git checkout 17c9e5b2330f86112dfb04fae833a840da7a5bc1 -- arquivoDeletado (PRONTO- arquivo restaurado)
+
 # RESUMO
 
 git pull : tras os arquivos que estão remoto
