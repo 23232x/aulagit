@@ -69,15 +69,6 @@ Mostra as alteraçãoes
 - git branch -D nomeDaBranch
 - git branch - Para checar se a branch foi deletada.
 
-# RESUMO
-
-1 - git init: // inicia a linha do tempo(histórico)
-2 - git add: // adiciona ou atualiza mudanças para irem para a linha do tempo.
-3 - git commit: // adiciona um ponto na linha do tempo
-4 - git log: // visualiza os pontos na linha do tempo(commit)
-5 - git status : //informa o estado das alterações do nosso projeto.
-6 - git show: // apresenta determinado ponto na história.
-
 #### 2º PARTE - COLOCAR O PROJETO NA NUVEM
 
 Explicação:
@@ -108,3 +99,31 @@ Primeiramente foi criado um reposiório local, agora vamos criar um repositório
 Para não ficar digitando sempre o usuário e senha do gitHub, utiliza-se o seguinte comando: Usuário e senha fica gravado
 
 - git config credential.helper store
+-
+
+##### PEGANDO UM PROJETO JÁ INICIADO, PARA TRABALHAR COM O TIME
+
+1 - selecione o projeto e selecione a opção 'clone or download', copie o link "https://github...."
+
+#### VOLTAR ARQUIVOS PARA UMA DETERMINADA LINHA DO TEMPO
+
+1 - git log // para ver o momento que se squer voltar da linha do tempo(branc).
+
+# RESUMO
+
+git pull : tras os arquivos que estão remoto
+git push: envia os arquivos que estão na máquina local para o servidor remoto.
+
+1 - git init // inicia a linha do tempo(histórico)
+2 - git add // adiciona ou atualiza mudanças para irem para a linha do tempo.
+3 - git commit // adiciona um ponto na linha do tempo
+4 - git log // visualiza os pontos na linha do tempo(commit)
+5 - git status //informa o estado das alterações do nosso projeto.
+6 - git show // apresenta determinado ponto na história.
+7 - git branch // gerencia novas linhas do tempo
+8 - git checkout //consegue sair e entrar de uma branch para outro
+9 - git merge //unir linhas do tempo (branch's)
+10 - git push // envia alterações locais para o repositório remoto.
+11 - git pull // tras os arquivos atualizados da nuvem ou gitHub
+12 - git checkout -b teste // cria uma nova brach e acessa ela(faz checkout).
+13 - git commit -am "update sem o add"
