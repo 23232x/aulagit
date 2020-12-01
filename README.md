@@ -108,6 +108,7 @@ Para não ficar digitando sempre o usuário e senha do gitHub, utiliza-se o segu
 #### VOLTAR ARQUIVOS PARA UMA DETERMINADA LINHA DO TEMPO
 
 1 - git log // para ver o momento que se squer voltar da linha do tempo(branc).
+2 - git checkout commit ba1abf8af55d75e4a4e68397efdd4579dd9d889b -- arquivoRecuperar
 
 # RESUMO
 
@@ -126,4 +127,4 @@ git push: envia os arquivos que estão na máquina local para o servidor remoto.
 10 - git push // envia alterações locais para o repositório remoto.
 11 - git pull // tras os arquivos atualizados da nuvem ou gitHub
 12 - git checkout -b teste // cria uma nova brach e acessa ela(faz checkout).
-13 - git commit -am "update sem o add"
+13 - git commit -am "update sem o add" //adiciona e faz o commit
