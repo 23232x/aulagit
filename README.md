@@ -92,7 +92,7 @@ Primeiramente foi criado um reposiório local, agora vamos criar um repositório
   è o carinha que vai empurrar nosso repositório local para meu repositório na nuvem, no gitHub
 
 * git branch -M main
-* git push -u origin main
+* git push -u origin main (somente da 1º vez, depois somento git push)
   Para Visualizar nossos arquivos no gitHub, acesse a aba <>code;
 
 ## ADD NOVOS ITENS APÓS O PRIMEIRO PULL
@@ -101,3 +101,10 @@ Primeiramente foi criado um reposiório local, agora vamos criar um repositório
   OU
   git add . (vai adicionar todas as alterações que estivem dentro da pasta)
 - 2 git commit -M "commitando tudo através do pontinho"
+- 3 git push
+
+## SALVAR USER.NAME, USER.EMAIL###
+
+Para não ficar digitando sempre o usuário e senha do gitHub, utiliza-se o seguinte comando: Usuário e senha fica gravado
+
+- git config credential.helper store
